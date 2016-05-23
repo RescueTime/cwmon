@@ -89,13 +89,19 @@ def test_inode_percent_metric_happy_path():
 
 
 def test_total_process_metric_happy_path():
-    """Create a :class:`TotalProcessesMetric` and hope the machine is running at a somewhat normal load for Hank's dev machine when he wrote the test."""
+    """Create a :class:`TotalProcessesMetric` and hope the machine is running at a somewhat normal load.
+
+    .. note:: "Normal" is based on whatever load happened to be active on the dev machine when the test was written.
+    """
     m = metrics.TotalProcessesMetric()
     assert 1 < m.value < 600  # This is a guess.
 
 
 def test_zombie_process_metric_happy_path():
-    """Create a :class:`ZombieProcessesMetric` and hope the machine in the range that was 'normal' on Hank's dev machine when he wrote the test."""
+    """Create a :class:`ZombieProcessesMetric` and hope the machine is running at a somewhat normal load.
+
+    .. note:: "Normal" is based on whatever load happened to be active on the dev machine when the test was written.
+    """
     m = metrics.ZombieProcessesMetric()
     assert 0 <= m.value < 25  # This is a guess.
 
