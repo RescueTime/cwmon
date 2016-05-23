@@ -23,9 +23,9 @@ Overview
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/RescueTime/cwmon
 
-.. |coveralls| image:: https://coveralls.io/repos/RescueTime/cwmon/badge.svg?branch=master&service=github
+.. |coveralls| image:: https://coveralls.io/repos/github/RescueTime/cwmon/badge.svg?branch=develop :target: https://coveralls.io/github/RescueTime/cwmon?branch=develop
     :alt: Coverage Status
-    :target: https://coveralls.io/r/RescueTime/cwmon
+    :target: https://coveralls.io/github/RescueTime/cwmon
 
 .. |version| image:: https://img.shields.io/pypi/v/cwmon.svg?style=flat
     :alt: PyPI Package latest release
