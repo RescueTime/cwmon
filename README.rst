@@ -19,13 +19,13 @@ Overview
     :target: https://readthedocs.org/projects/cwmon
     :alt: Documentation Status
 
-.. |travis| image:: https://travis-ci.org/gthank/cwmon.svg?branch=master
+.. |travis| image:: https://travis-ci.org/RescueTime/cwmon.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/gthank/cwmon
+    :target: https://travis-ci.org/RescueTime/cwmon
 
-.. |coveralls| image:: https://coveralls.io/repos/gthank/cwmon/badge.svg?branch=master&service=github
+.. |coveralls| image:: https://coveralls.io/repos/RescueTime/cwmon/badge.svg?branch=master&service=github
     :alt: Coverage Status
-    :target: https://coveralls.io/r/gthank/cwmon
+    :target: https://coveralls.io/r/RescueTime/cwmon
 
 .. |version| image:: https://img.shields.io/pypi/v/cwmon.svg?style=flat
     :alt: PyPI Package latest release
