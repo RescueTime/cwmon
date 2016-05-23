@@ -58,15 +58,20 @@ setup(
     ],
     install_requires=[
         'click',
+        'boto3',
+        'psutil',
+        'click-plugins',
     ],
     extras_require={
-        # eg:
-        #   'rst': ['docutils>=0.11'],
-        #   ':python_version=="2.6"': ['argparse'],
+        'dev': [
+            'wheel',
+            'bumpversion',
+            'gitchangelog',
+        ],
     },
     entry_points={
         'console_scripts': [
-            'cwmon = cwmon.cli:main',
+            'cwmon = cwmon.cli:cwmon',
         ]
     },
 )
