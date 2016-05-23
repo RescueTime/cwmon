@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-
+"""It's the ``setup.py``; you know the drill."""
 import io
 import re
 from glob import glob
@@ -14,6 +14,7 @@ from setuptools import setup
 
 
 def read(*names, **kwargs):
+    """Read the contents of a file and return them."""
     return io.open(
         join(dirname(__file__), *names),
         encoding=kwargs.get('encoding', 'utf8')
