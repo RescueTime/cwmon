@@ -67,6 +67,7 @@ setup(
             'wheel',
             'bumpversion',
             'gitchangelog',
+            'twine',
         ],
     },
     entry_points={
