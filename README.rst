@@ -10,7 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis|
+      - | |travis| |requires|
         | |coveralls|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
@@ -22,6 +22,10 @@ Overview
 .. |travis| image:: https://travis-ci.org/RescueTime/cwmon.svg?branch=develop
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/RescueTime/cwmon
+
+.. |requires| image:: https://requires.io/github/RescueTime/cwmon/requirements.svg?branch=develop
+    :alt: Requirements Status
+    :target: https://requires.io/github/RescueTime/cwmon/requirements/?branch=develop
 
 .. |coveralls| image:: https://coveralls.io/repos/github/RescueTime/cwmon/badge.svg?branch=develop
     :alt: Coverage Status
