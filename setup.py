@@ -64,6 +64,7 @@ setup(
     ],
     extras_require={
         'dev': [
+            'tox',
             'wheel',
             'bumpversion',
             'gitchangelog',
