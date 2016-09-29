@@ -35,6 +35,9 @@ class _MonitoringOptions:
     def __init__(self, dry_run):
         self.dry_run = dry_run
 
+    def __repr__(self):
+        return "Options: %s".format(self.__dict__)
+
 
 #: You're going to want to read the docs for `Complex Applications`_
 #: to understand ``@click.pass_context`` and ``@click.pass_obj`` and
