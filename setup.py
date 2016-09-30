@@ -61,6 +61,7 @@ setup(
         'boto3',
         'psutil',
         'click-plugins',
+        'colorama',
     ],
     extras_require={
         'dev': [
