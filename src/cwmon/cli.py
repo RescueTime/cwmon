@@ -69,7 +69,7 @@ def free_space(options, paths):
     for p in paths:
         m = DiskPercentFreeSpaceMetric(p)
         if options.dry_run:
-            click.echo(str(m))
+            _say_it(m)
         else:
             m.put()
 
@@ -86,7 +86,7 @@ def free_inodes(options, paths):
     for p in paths:
         m = DiskPercentFreeInodesMetric(p)
         if options.dry_run:
-            click.echo(str(m))
+            _say_it(m)
         else:
             m.put()
 
@@ -97,7 +97,7 @@ def total_procs(options):
     """Count the total number of processes."""
     m = TotalProcessesMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -108,7 +108,7 @@ def zombie_procs(options):
     """Count the number of zombie processes."""
     m = ZombieProcessesMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -119,7 +119,7 @@ def load_avg_1(options):
     """Get the 1-minute load average."""
     m = OneMinuteLoadAvgMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -130,7 +130,7 @@ def load_avg_5(options):
     """Get the 5-minute load average."""
     m = FiveMinuteLoadAvgMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -141,7 +141,7 @@ def load_avg_15(options):
     """Get the 15-minute load average."""
     m = FifteenMinuteLoadAvgMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -155,7 +155,7 @@ def cpu_percent(options):
     """
     m = CpuPercentageMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -169,7 +169,7 @@ def cpu_ctx_switches(options):
     """
     m = CpuContextSwitchesMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -180,7 +180,7 @@ def mem_available(options):
     """Get amount of RAM that is 'available'."""
     m = MemoryAvailableMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
 
@@ -191,6 +191,14 @@ def mem_available_percent(options):
     """Get amount of RAM that is 'available' as a percentage of total RAM."""
     m = MemoryAvailablePercentageMetric()
     if options.dry_run:
-        click.echo(str(m))
+        _say_it(m)
     else:
         m.put()
+
+
+def _say_it(it):
+    click.secho(str(it), fg='green')
+
+
+def _scream_it(it):
+    click.secho(str(it), fg='red')
