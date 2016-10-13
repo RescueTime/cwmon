@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
 import os
 
 
@@ -26,13 +24,13 @@ project = 'cwmon'
 year = '2016'
 author = 'Hank Gay'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.1.6'
+version = release = '0.2.0'
 
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://github.com/gthank/cwmon/issues/%s', '#'),
-    'pr': ('https://github.com/gthank/cwmon/pull/%s', 'PR #'),
+    'issue': ('https://github.com/RescueTime/cwmon/issues/%s', '#'),
+    'pr': ('https://github.com/RescueTime/cwmon/pull/%s', 'PR #'),
 }
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'

@@ -10,22 +10,26 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis|
+      - | |travis| |requires|
         | |coveralls|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
-.. |docs| image:: https://readthedocs.org/projects/cwmon/badge/?style=flat
-    :target: https://readthedocs.org/projects/cwmon
-    :alt: Documentation Status
+.. |docs| image:: https://readthedocs.org/projects/cwmon/badge/?version=latest
+    :target: http://cwmon.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Statusimage:: https://readthedocs.org/projects/cwmon/badge/?style=flat
 
-.. |travis| image:: https://travis-ci.org/gthank/cwmon.svg?branch=master
+.. |travis| image:: https://travis-ci.org/RescueTime/cwmon.svg?branch=develop
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/gthank/cwmon
+    :target: https://travis-ci.org/RescueTime/cwmon
 
-.. |coveralls| image:: https://coveralls.io/repos/gthank/cwmon/badge.svg?branch=master&service=github
+.. |requires| image:: https://requires.io/github/RescueTime/cwmon/requirements.svg?branch=develop
+    :alt: Requirements Status
+    :target: https://requires.io/github/RescueTime/cwmon/requirements/?branch=develop
+
+.. |coveralls| image:: https://coveralls.io/repos/github/RescueTime/cwmon/badge.svg?branch=develop
     :alt: Coverage Status
-    :target: https://coveralls.io/r/gthank/cwmon
+    :target: https://coveralls.io/github/RescueTime/cwmon?branch=develop
 
 .. |version| image:: https://img.shields.io/pypi/v/cwmon.svg?style=flat
     :alt: PyPI Package latest release

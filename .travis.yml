@@ -9,11 +9,9 @@ env:
     - TOXENV=check
     - TOXENV=docs
 
-    - TOXENV=py27,coveralls
     - TOXENV=py33,coveralls
     - TOXENV=py34,coveralls
     - TOXENV=py35,coveralls
-    - TOXENV=pypy,coveralls
 before_install:
   - python --version
   - uname -a
