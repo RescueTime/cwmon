@@ -64,8 +64,9 @@ class Metric(metaclass=ABCMeta):
                     MetricData=[{
                         'MetricName': self.name,
                         'Value': self.value,
-                    }],
-                    Timestamp=self.timestamp)
+                        'Timestamp': self.timestamp
+                    }]
+            )
         except Exception:
             logging.exception("Error pushing {0} to CloudWatch.".format(str(self)))
 
