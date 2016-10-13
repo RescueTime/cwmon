@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='cwmon',
-    version='0.1.6',
+    version='0.2.0',
     license='BSD',
     description='CloudWatch-based monitoring for your servers.',
     long_description='%s\n%s' % (
