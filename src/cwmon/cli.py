@@ -49,7 +49,7 @@ class _MonitoringOptions:
 
 
 @with_plugins(iter_entry_points('cwmon.plugins'))
-@click.group()
+@click.group(chain=True)
 @click.option('--dry-run/--no-dry-run', default=False, help="Don't submit metric data to AWS.")
 @click.pass_context
 def cwmon(ctx, dry_run):

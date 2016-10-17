@@ -1,6 +1,21 @@
 Changelog
 =========
 
+0.3.0 (2016-10-17)
+------------------
+
+New
+~~~
+
+- Allow chaining subcommands. [Hank Gay]
+
+Other
+~~~~~
+
+- Bump version: 0.2.0 → 0.3.0. [Hank Gay]
+
+- Merge branch 'release/0.2.0' into develop. [Hank Gay]
+
 0.2.0 (2016-10-13)
 ------------------
 
@@ -32,6 +47,8 @@ Fix
 
 Other
 ~~~~~
+
+- Merge branch 'release/0.2.0' [Hank Gay]
 
 - Bump version: 0.1.6 → 0.2.0. [Hank Gay]
 
