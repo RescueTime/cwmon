@@ -59,7 +59,6 @@ setup(
     install_requires=[
         'click',
         'boto3',
-        'psutil',
         'click-plugins',
         'colorama',
     ],
