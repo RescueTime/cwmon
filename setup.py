@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='cwmon',
-    version='0.3.0',
+    version='0.5.0',
     license='BSD',
     description='CloudWatch-based monitoring for your servers.',
     long_description='%s\n%s' % (
@@ -59,7 +59,6 @@ setup(
     install_requires=[
         'click',
         'boto3',
-        'psutil',
         'click-plugins',
         'colorama',
     ],
