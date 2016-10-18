@@ -1,6 +1,21 @@
 Changelog
 =========
 
+0.5.0 (2016-10-18)
+------------------
+
+Changes
+~~~~~~~
+
+- Pull out all actual monitoring to plugin. [Hank Gay]
+
+Other
+~~~~~
+
+- Bump version: 0.3.0 → 0.5.0. [Hank Gay]
+
+- Merge branch 'release/0.3.0' into develop. [Hank Gay]
+
 0.3.0 (2016-10-17)
 ------------------
 
@@ -9,8 +24,15 @@ New
 
 - Allow chaining subcommands. [Hank Gay]
 
+Changes
+~~~~~~~
+
+- Update changelog. [Hank Gay]
+
 Other
 ~~~~~
+
+- Merge branch 'release/0.3.0' [Hank Gay]
 
 - Bump version: 0.2.0 → 0.3.0. [Hank Gay]
 
@@ -63,3 +85,5 @@ Other
 - Add dev dependency on twine. [Hank Gay]
 
 - Initial project skeleton. [Hank Gay]
+
+
